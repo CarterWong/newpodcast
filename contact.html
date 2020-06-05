@@ -5,39 +5,57 @@
     <meta charset="utf-8">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/cstyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f1a1d6ea13.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
+
     <div class="container">
-    <form action="action_page.php">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <header>
+         <img src="https://iili.io/JOYU8v.png" class="logo">
+      </header>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="recent.html">New Releases</a>
+        <a href="podcast.html">Podcasts</a>
+        <a href="contact.html">Contact</a>
+        <input type="text" placeholder="Search..">
+      </div>
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+      <h1>Recommended</h1>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <div class="contain">
+        <form action="action_page.php">
 
-    <input type="submit" value="Submit">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    </form>
-    </div>
-    
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
       <footer>
       </footer>
+
+    </div>
   </body>
 
 </html>
