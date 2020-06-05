@@ -85,6 +85,12 @@ h2 {
     padding: 10px 0px 10px 5px;
 }
 
+iframe {
+    height: 1080;
+    width: 1920;
+    padding-top: 40px;
+}
+
 a {
     text-decoration: none;
     font-family: Poppins;
