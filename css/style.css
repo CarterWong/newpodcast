@@ -85,6 +85,17 @@ header, footer {
     padding: 10px 0px 10px 5px;
   }
   
+  a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #0084ff;
+    padding: 10px 0px 10px 5px;
+  }
+
   img {
     width: 300px;
     height: 168.75px;
